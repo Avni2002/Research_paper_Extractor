@@ -36,8 +36,10 @@ Corresponding Author Email - Email address of the corresponding author (if avail
 ## 🛠️ Installation &amp; Setup
 This project uses Poetry for dependency management.
 ### 1️⃣ Clone the Repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/pubmed-fetcher.git
-cd pubmed-fetcher
+```sh
+git clone https://github.com/Avni2002/Research_paper_Extraction.git
+cd Research_paper_Extraction
+```
 
 ### 2️⃣ Install Dependencies
 
