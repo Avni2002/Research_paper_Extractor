@@ -1,0 +1,21 @@
+[project]
+name = "research-paper-extraction"
+version = "0.1.1"
+description = "A tool to fetch PubMed research papers and extract non-academic authors"
+authors = [
+    {name = "Rituparna Meher",email = "meherrituparna@gmail.com"}
+]
+packages = [{include = "research_paper_extraction"}]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "lxml (>=5.3.1,<6.0.0)",
+    "biopython (>=1.79,<2.0)"
+]
+
+get-papers-list = "research_paper_extraction.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
