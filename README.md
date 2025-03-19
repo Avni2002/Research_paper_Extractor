@@ -1,7 +1,7 @@
 
 
 ## 📌 Project Overview
-The PubMed Research Paper Fetcher is a Python command-line tool that fetches research papers from PubMed based on a user-specified query. It identifies papers with at least one author affiliated with a pharmaceutical or biotech company and exports the results as a CSV file.
+The Research Paper Extractor is a Python command-line tool that fetches research papers from PubMed based on a user-specified query. It identifies papers with at least one author affiliated with a pharmaceutical or biotech company and exports the results as a CSV file.
 ## 🚀 Features
 
 Fetch research papers using the PubMed API.
@@ -49,7 +49,7 @@ pip install poetry
 
 ### 3️⃣ Run the Program
 ```sh
-poetry run python -m research_paper_extraction.main "Cancer Treatment" --max-results 10 --file results.csv
+poetry run python -m research_paper_extraction.main "Cancer Treatment" --max-results 10 --file 
 ```
 
 ## 🎯 Usage &amp; CLI Options
