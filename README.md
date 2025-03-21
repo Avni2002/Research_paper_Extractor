@@ -92,7 +92,7 @@ Submit a Pull Request!
 
 ## ⚡ Example Run
 ```sh
-poetry python -m research_paper_extraction.main "Cancer Immunotherapy" --max-results 5 --file output.csv
+poetry run python -m research_paper_extraction.main "Cancer Immunotherapy" --max-results 5 --file output.csv
 ```
 
 Example output:
